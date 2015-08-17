@@ -5,6 +5,7 @@
 
 ## Running ##
 ```
+npm install
 npm run bundle
 ```
 - open index.html, either manually or use a server
