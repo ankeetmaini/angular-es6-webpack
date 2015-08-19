@@ -1,9 +1,11 @@
 <html ng-app="app">
   <body>
     <h1>Angular 1.4 + ES6 + Webpack</h1>
-    <div class="alert alert-success" ng-controller="MainController as mainCtrl">
-      {{mainCtrl.welcomeMessage}}
-    </div>
+
+    <a ui-sref="main">Load a template below</a>
+
+    <!-- templates load up here -->
+    <div ui-view></div>
 
     <script src="build/bundle.js"></script>
   </body>
