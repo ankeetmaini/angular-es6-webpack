@@ -7,5 +7,9 @@ export default function Routes ($stateProvider) {
       template: require('./templates/main-template.html'),
       controller: 'MainController',
       controllerAs: 'mainCtrl'
-    });
+    })
+    .state('main.nested', {
+      url: '/nested',
+      template: require('./templates/nested-template.html'),
+    });;
 }
